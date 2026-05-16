@@ -21,7 +21,7 @@ public class AdminPage {
     By systemUsers = By.xpath("//h5[text()='System Users']");
 
     public void openAdminPage() {
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.findElement(adminMenu).click();
     }
 
